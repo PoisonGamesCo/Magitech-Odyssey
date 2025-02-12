@@ -14,3 +14,9 @@ journeymap/
 local
 .gitignore
 options.txt
+comand_history.txt
+observable_announce
+screenshots/
+imgui.ini
+realms_persistence.json
+user-prefs.json
