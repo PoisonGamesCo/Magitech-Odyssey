@@ -17,7 +17,7 @@ full_stack_linking = true
 	chest_size_min = 9
 	# Default: 27
 	# Range: 9 ~ 54
-	chest_size_max = 27
+	chest_size_max = 54
 
 #Configure Usability and Interactions
 [access_settings]

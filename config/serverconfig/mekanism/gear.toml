@@ -63,7 +63,7 @@
 	#Maximum amount (joules) of energy the Energy Tablet can contain.
 	# Default: 1000000
 	# Range: 0 ~ 9223372036854775807
-	maxEnergy = 1000000
+	maxEnergy = 10000000
 	#Amount (joules) of energy the Energy Tablet can accept per tick.
 	# Default: 5000
 	# Range: 0 ~ 9223372036854775807
@@ -74,7 +74,7 @@
 	#Capacity in mB of gauge droppers.
 	# Default: 16000
 	# Range: > 1
-	capacity = 16000
+	capacity = 16000000
 	#Rate in mB/t at which a gauge dropper can be filled or emptied.
 	# Default: 250
 	# Range: > 1
@@ -143,7 +143,7 @@
 	#Maximum amount (joules) of energy the Portable Teleporter can contain.
 	# Default: 1000000
 	# Range: 0 ~ 9223372036854775807
-	maxEnergy = 1000000
+	maxEnergy = 100000000
 	#Amount (joules) of energy the Portable Teleporter can accept per tick.
 	# Default: 5000
 	# Range: 0 ~ 9223372036854775807
@@ -162,7 +162,7 @@
 	#Rate in mB/t at which a Scuba Tank can accept oxygen.
 	# Default: 16
 	# Range: 1 ~ 9223372036854775807
-	fillRate = 16
+	fillRate = 160
 
 #Settings for configuring Seismic Readers
 [seismic_reader]
@@ -263,7 +263,7 @@
 	#Energy capacity (Joules) of MekaSuit items without any installed upgrades. Quadratically scaled by upgrades.
 	# Default: 16000000
 	# Range: 0 ~ 9223372036854775807
-	baseEnergyCapacity = 16000000
+	baseEnergyCapacity = 160000000
 	#Amount (joules) of energy the MekaSuit can accept per tick. Quadratically scaled by upgrades.
 	# Default: 100000
 	# Range: 0 ~ 9223372036854775807
@@ -281,7 +281,7 @@
 	#Maximum amount in mB of Nutritional Paste storable by the nutritional injection unit.
 	# Default: 128000
 	# Range: > 1
-	nutritionalMaxStorage = 128000
+	nutritionalMaxStorage = 1280000
 	#Rate in mB/t at which Nutritional Paste can be transferred into the nutritional injection unit.
 	# Default: 256
 	# Range: > 1
@@ -304,11 +304,11 @@
 		#Energy cost multiplier in Joules for reducing magic damage via the inhalation purification unit. Energy cost is: MagicDamage * magicReduce. (1 MagicDamage is 1 half heart).
 		# Default: 1000
 		# Range: 0 ~ 9223372036854775807
-		magicReduce = 1000
+		magicReduce = 10000
 		#Energy cost multiplier in Joules for reducing fall damage with MekaSuit Boots. Energy cost is: FallDamage * fall. (1 FallDamage is 1 half heart)
 		# Default: 50
 		# Range: 0 ~ 9223372036854775807
-		fall = 50
+		fall = 500
 		#Energy usage (Joules) of MekaSuit when adding 0.1 to jump motion.
 		# Default: 1000
 		# Range: 0 ~ 9223372036854775807
@@ -332,11 +332,11 @@
 		#Energy usage (Joules) of MekaSuit per tick of using vision enhancement.
 		# Default: 500
 		# Range: 0 ~ 9223372036854775807
-		visionEnhancement = 500
+		visionEnhancement = 5000
 		#Energy usage (Joules) of MekaSuit per tick of using hydrostatic repulsion.
 		# Default: 500
 		# Range: 0 ~ 9223372036854775807
-		hydrostaticRepulsion = 500
+		hydrostaticRepulsion = 5000
 		#Energy usage (Joules) of MekaSuit per half-food of nutritional injection.
 		# Default: 20000
 		# Range: 0 ~ 9223372036854775807
@@ -344,7 +344,7 @@
 		#Energy usage (Joules) of MekaSuit per tick of attracting a single item.
 		# Default: 250
 		# Range: 0 ~ 9223372036854775807
-		itemAttraction = 250
+		itemAttraction = 25000
 
 	#Settings for configuring damage absorption of the MekaSuit
 	[mekasuit.damage_absorption]

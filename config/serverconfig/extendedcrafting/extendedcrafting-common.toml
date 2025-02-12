@@ -14,7 +14,7 @@
 	#How much FE/t the Crafting Core should use when crafting by default.
 	# Default: 500
 	# Range: > 0
-	powerRate = 500
+	powerRate = 50000
 
 #Settings for the Extended Crafting Tables.
 ["Table Crafting"]
@@ -37,7 +37,7 @@
 	#How much FE the Auto Crafting Tables should use when crafting.
 	# Default: 500
 	# Range: > 0
-	autoTablePowerRate = 500
+	autoTablePowerRate = 500000
 	#How much FE the Auto Crafting Tables should use when auto inserting items.
 	# Default: 100
 	# Range: > 0
@@ -54,7 +54,7 @@
 	#How much FE/t the Quantum Compressor should use when crafting by default.
 	# Default: 5000
 	# Range: > 0
-	powerRate = 5000
+	powerRate = 500000
 
 #Settings for the Ender Crafter.
 ["Ender Crafting"]
@@ -88,11 +88,11 @@
 	#How much FE/t the Flux Crafter should pull from each Flux Alternator when crafting by default.
 	# Default: 400
 	# Range: > 0
-	defaultPowerRate = 400
+	defaultPowerRate = 40000
 	#How much FE the Flux Alternator should hold.
 	# Default: 80000
 	# Range: > 0
-	powerCapacity = 80000
+	powerCapacity = 8000000
 	#How much FE the Auto Flux Crafter should hold.
 	# Default: 500000
 	# Range: > 0
@@ -107,13 +107,13 @@
 	#Should the Singularities be enabled?
 	enabled = true
 	#The default amount of items required to create a Singularity.
-	# Default: 10000
+	# Default: 1000000
 	# Range: > 1
-	defaultMaterialsRequired = 10000
+	defaultMaterialsRequired = 1000000
 	#The default amount of FE required to create a Singularity.
 	# Default: 5000000
 	# Range: > 0
-	defaultPowerRequired = 5000000
+	defaultPowerRequired = 500000000
 	#Should default recipes be generated for Singularities?
 	defaultRecipes = true
 	#The item to use as the Catalyst in default Singularity recipes.

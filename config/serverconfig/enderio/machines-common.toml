@@ -10,7 +10,7 @@
 		#The base energy consumption in uI/t.
 		# Default: 20
 		# Range: > 1
-		usage = 20
+		usage = 40
 		#The amount of energy to consume per vanilla smelting item in uI.
 		# Default: 1500
 		# Range: > 1
@@ -201,17 +201,17 @@
 
 [enchanter]
 	#The lapis cost is enchant level multiplied by this value.
-	lapisCostFactor = 3.0
+	lapisCostFactor = 10.0
 	#The final XP cost for an enchantment is multiplied by this value. To halve costs set to 0.5, to double them set it to 2.
-	levelCostFactor = 0.75
+	levelCostFactor = 1
 	#Base level cost added to all recipes in the enchanter.
-	baseLevelCost = 2
+	baseLevelCost = 4
 
 [poweredSpawner]
 	#The amount of mobs that spawn from the spawner
 	# Default: 4
 	# Range: > 0
-	spawnAmount = 4
+	spawnAmount = 2
 	#The amount of entities that will turn off powered spawner if in range.
 	# Default: 2
 	# Range: > 0

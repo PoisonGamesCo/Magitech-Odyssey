@@ -128,12 +128,12 @@ dimensionalStabilizer = 5000
 	#Base cost in Joules for teleporting an entity.
 	# Default: 1000
 	# Range: 0 ~ 9223372036854775807
-	base = 1000
+	base = 10000
 	#Joules per unit of distance travelled during teleportation - sqrt(xDiff^2 + yDiff^2 + zDiff^2).
 	# Default: 10
 	# Range: 0 ~ 9223372036854775807
-	distance = 10
+	distance = 100
 	#Flat additional cost for interdimensional teleportation. Distance is still taken into account minimizing energy cost based on dimension scales.
 	# Default: 10000
 	# Range: 0 ~ 9223372036854775807
-	dimensionPenalty = 10000
+	dimensionPenalty = 1000000
