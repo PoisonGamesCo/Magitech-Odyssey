@@ -1,0 +1,2 @@
+/kill @e
+/neoforge tps minecraft:overworld

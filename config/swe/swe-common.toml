@@ -1,0 +1,4 @@
+["General Settings"]
+	# Default: 500
+	# Range: > 350
+	"Height to Enter Space" = 500
