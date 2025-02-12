@@ -1,7 +1,7 @@
 [recipeViewers]
-	disableColoredCableRecipesInRecipeViewer = true
+	disableColoredCableRecipesInRecipeViewer = false
 	#Show facades in REI/JEI/EMI item list
-	enableFacadesInRecipeViewer = false
+	enableFacadesInRecipeViewer = true
 	#Show facade recipes in REI/JEI/EMI for supported blocks
 	enableFacadeRecipesInRecipeViewer = true
 	#Expose the full network inventory to EMI, which might cause performance problems.
@@ -35,7 +35,7 @@
 
 [search]
 	#Should the mod name be included when searching in tooltips.
-	searchModNameInTooltips = false
+	searchModNameInTooltips = true
 	#Replaces AEs own search with the search of REI or JEI
 	useExternalSearch = false
 	#When using useExternalSearch, clears the search when the terminal opens

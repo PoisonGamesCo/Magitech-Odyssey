@@ -3,12 +3,12 @@
 	#Enables the ability of the Matter Cannon to break blocks.
 	matterCannonBlockDamage = true
 	#Enables the ability of Tiny TNT to break blocks.
-	tinyTntBlockDamage = true
+	tinyTntBlockDamage = false
 	#Changes the channel capacity that cables provide in AE2.
 	#Allowed Values: INFINITE, DEFAULT, X2, X3, X4
-	channels = "DEFAULT"
+	channels = "X2"
 	#Whether Spatial Anchors should force random chunk ticks and entity spawning.
-	spatialAnchorEnableRandomTicks = true
+	spatialAnchorEnableRandomTicks = false
 
 [automation]
 	# Default: 128
@@ -73,7 +73,7 @@
 	spawnFlawlessOnly = false
 
 [wireless]
-	# Default: 8.0
+	# Default: 32
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
 	wirelessBaseCost = 8.0
 	# Default: 1.0
@@ -98,7 +98,7 @@
 [powerRatios]
 	# Default: 0.5
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	forgeEnergy = 0.5
+	forgeEnergy = 0.2
 	# Default: 1.0
 	# Range: 0.01 ~ 1.7976931348623157E308
 	usageMultiplier = 1.0
@@ -113,11 +113,11 @@
 	#The cost to transport energy through an energy P2P tunnel expressed as a factor of the transported energy.
 	# Default: 0.025
 	# Range: 0.0 ~ 1.0
-	p2pTunnelEnergyTax = 0.025
+	p2pTunnelEnergyTax = 0.0025
 	#The cost to transport items/fluids/etc. through P2P tunnels, expressed in AE energy per equivalent I/O bus operation for the transported object type (i.e. items=per 1 item, fluids=per 125mb).
 	# Default: 0.025
 	# Range: 0.0 ~ 1.0
-	p2pTunnelTransportTax = 0.025
+	p2pTunnelTransportTax = 0.0025
 
 [condenser]
 	# Default: 256
