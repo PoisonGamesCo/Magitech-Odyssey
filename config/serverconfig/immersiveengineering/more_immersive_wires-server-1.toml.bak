@@ -6,11 +6,11 @@
 		#ME Glass Cable Cable Max Length
 		# Default: 16
 		# Range: 4 ~ 256
-		aeMaxLen = 16
+		aeMaxLen = 32
 
 	#ME Dense Cable Cable Stettings
 	[wires.ae_dense]
 		#ME Dense Cable Cable Max Length
 		# Default: 16
 		# Range: 4 ~ 256
-		ae_denseMaxLen = 16
+		ae_denseMaxLen = 64
